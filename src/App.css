@@ -332,20 +332,7 @@
 }
 
 @media only screen and (min-width: 0px) and (max-width: 1000px) {
-  .head-1{
-    width: 270%;
-  }
-  .head-input{
-    margin-left: 5rem;
-  }
-  .head-2{
-    width: 270%;
-  }
-  .sub-1,.sub-2{
-    width: 235%;
-    margin: 1rem;
-  }
-  .footer{
-    width: 250%;
+  html{
+    width: 300%;
   }
 }
