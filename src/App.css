@@ -1,0 +1,351 @@
+.App {
+  text-align: center;
+  background-size: 100px;
+}
+.logo{
+  height: 10%;
+  width: 10%;
+}
+.sub-heading{
+  font-size: x-large;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+.apexcharts-canvas{
+  flex-direction: column;
+}
+.inner-chart{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 90%;
+  padding: 1rem;
+}
+.outer-div{
+  height: 100%;
+  width: 10px;
+  border-radius: 3rem;
+  background-color: antiquewhite;
+  justify-content: end;
+  text-align: end;
+  display: flex;
+  align-items: end;
+}
+.inner-div{
+  width: 10px;
+  border-radius: 3rem;
+  background-color: rgb(250, 58, 0);
+}
+.outer-div-2{
+  height: 100%;
+  width: 10px;
+  border-radius: 3rem;
+  background-color: rgb(184, 167, 252);
+  justify-content: end;
+  text-align: end;
+  display: flex;
+  align-items: end;
+}
+.inner-div-2{
+  width: 10px;
+  border-radius: 3rem;
+  background-color: rgb(0, 100, 250);
+}.outer-div-3{
+  height: 100%;
+  width: 10px;
+  border-radius: 3rem;
+  background-color: rgb(180, 243, 161);
+  justify-content: end;
+  text-align: end;
+  display: flex;
+  align-items: end;
+}
+.inner-div-3{
+  width: 10px;
+  border-radius: 3rem;
+  background-color: rgb(29, 250, 0);
+}.outer-div-4{
+  height: 100%;
+  width: 10px;
+  border-radius: 3rem;
+  background-color: rgb(243, 215, 250);
+  justify-content: end;
+  text-align: end;
+  display: flex;
+  align-items: end;
+}
+.inner-div-4{
+  width: 10px;
+  border-radius: 3rem;
+  background-color: rgb(250, 0, 250);
+}
+.chart-1{
+  width: 50%;
+  height: 200px;
+  padding: 1rem 1rem;
+  justify-content: start;
+  text-align: start;
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.apexcharts-legend .apexcharts-align-center .apx-legend-position-right{
+  display: none;
+}
+.sub-1{
+  width: 90%;
+  height: 70%;
+  margin: 4rem;
+  padding: 1rem;
+  border: 0.1px solid rgba(113, 113, 113, 0.35); 
+  border-radius: 2rem;
+}
+.pie {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+  background-color: #1b212d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 3rem;
+}
+.sub-2{
+  width: 90%;
+  height: 55rem;
+  margin: 4rem;
+  padding: 1rem;
+  border: 0.1px solid rgba(113, 113, 113, 0.35); 
+  border-radius: 2rem;
+}
+.this{
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: small;
+  margin-left: 1rem;
+  background-color: rgba(128, 128, 128, 0.605);
+  color:rgb(57, 57, 57);
+  height: 1rem;
+}
+.one-back{
+  background:linear-gradient(green,rgb(1, 250, 1));
+  width: 10rem;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20rem;
+  display: flex;
+}
+.one-mid{
+  background-color: white;
+  width: 7rem;
+  color: #1f1f1f;
+  border-radius: 20rem;
+  height: 7rem;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+}
+.one-back-2{
+  background:linear-gradient(rgb(0, 36, 128),rgb(1, 188, 250));
+  width: 10rem;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20rem;
+  display: flex;
+}
+.one-mid-2{
+  background-color: white;
+  width: 9.5rem;
+  border-radius: 20rem;
+  height: 9.5rem;
+  justify-content: center;
+  display: flex;
+  color: #1f1f1f;
+  align-items: center;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+}
+.one-back-3{
+  background:linear-gradient(rgb(230, 41, 41),rgb(250, 96, 1));
+  width: 10rem;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20rem;
+  display: flex;
+}
+.one-mid-3{
+  color: #1f1f1f;
+  background-color: white;
+  width: 9.5rem;
+  border-radius: 20rem;
+  height: 9.5rem;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+}
+.one-back-4{
+  background:linear-gradient(rgb(128, 0, 60),rgb(150, 1, 250));
+  width: 10rem;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20rem;
+  display: flex;
+}
+.one-mid-4{
+  background-color: white;
+  width: 9.5rem;
+  border-radius: 20rem;
+  height: 9.5rem;
+  justify-content: center;
+  color: #1f1f1f;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+}
+.sub-head {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+.head-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1%;
+}
+.type{
+  color: rgb(224, 219, 219);
+  border: none;
+  width: 40%;
+  background-color: rgb(152, 152, 152,0.1);
+  padding: 1rem;
+  border-radius: 1rem 0 0 1rem;
+}
+.type:focus{
+  border: none;
+}
+.right-head{
+  height: 3rem;
+}
+.right-up{
+  display: flex;
+  flex-direction: row;
+}
+.right-down{
+  display: flex;
+  margin-top: 4rem;
+  flex-direction: row;
+}
+.head-2{
+  background: linear-gradient(to right,rgb(80, 80, 226),rgb(189, 130, 238));
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+.options.first{
+  background-color: blue;
+  border-radius: 1rem;
+  width: 7rem;
+  height: 2rem;
+  padding: 0.3rem;
+}
+.options{
+  color: white;
+  font-size: large;
+}
+.head-input{
+  display: flex;
+  padding: 0;
+  height: 2.7rem;
+  width: 50%;
+  margin-left: 25rem;
+}
+.MuiSvgIcon-root.search{
+  height: 1.7rem;
+  width: 1.7rem;
+  padding: 0.5rem;
+  background: linear-gradient(to right,blue,rgba(0, 0, 255, 0.763));
+  color: white;
+  border-radius: 0 1rem 1rem 0;
+  position: relative;
+  
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+  .head-1{
+    width: 270%;
+  }
+  .head-input{
+    margin-left: 5rem;
+  }
+  .head-2{
+    width: 270%;
+  }
+  .sub-1,.sub-2{
+    width: 235%;
+    margin: 1rem;
+  }
+  .footer{
+    width: 250%;
+  }
+}
